@@ -4,7 +4,7 @@
     int salary;
     public void printDetails(){
         System.out.println(" My id is "+ id);
-        System.out.println("and my name is "+ name);
+        System.out.println("and my name is this "+ name);
     }
     public int getSalary(){
         return salary;
