@@ -1,5 +1,3 @@
-public class constructors {
-   
 
 class MyMainEmployee{
     private int id;
@@ -31,15 +29,13 @@ class MyMainEmployee{
     }
 }
 
-public class cwh_42_constructors {
+public class constructors_practice {
     public static void main(String[] args) {
+        //MyMainEmployee harry = new MyMainEmployee("ProgrammingWithHarry", 12);
         MyMainEmployee harry = new MyMainEmployee();
-       // MyMainEmployee harry = new MyMainEmployee();
         //harry.setName("CodeWithHarry");
         //harry.setId(34);
         System.out.println(harry.getId());
         System.out.println(harry.getName());
     }
-}
-
 }
